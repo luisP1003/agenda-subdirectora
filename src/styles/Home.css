@@ -1,0 +1,36 @@
+.home-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .quick-actions {
+    margin-top: 20px;
+  }
+  
+  .quick-actions button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .quick-actions button:hover {
+    background: #0056b3;
+  }
+  

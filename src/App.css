@@ -1,0 +1,30 @@
+/* Asegura que el contenedor principal ocupa toda la pantalla sin márgenes */
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Evita márgenes y paddings innecesarios en el body */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden; /* Evita desplazamiento horizontal */
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5; /* Color de fondo neutro */
+}
+
+/* Estilos globales para evitar problemas de diseño */
+* {
+  box-sizing: border-box;
+}
+
+/* Estilos para mejorar la responsividad */
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+}
